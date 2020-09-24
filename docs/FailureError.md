@@ -1,4 +1,4 @@
-# OpenapiClient::ErrorError
+# OpenapiClient::FailureError
 
 ## Properties
 
@@ -12,7 +12,7 @@ Name | Type | Description | Notes
 ```ruby
 require 'OpenapiClient'
 
-instance = OpenapiClient::ErrorError.new(reason: ERROR_CODE_FOR_MACHINES,
+instance = OpenapiClient::FailureError.new(reason: ERROR_CODE_FOR_MACHINES,
                                  details: Optional explanation for humans with more details)
 ```
 

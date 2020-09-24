@@ -1,17 +1,17 @@
-# OpenapiClient::Error
+# OpenapiClient::Failure
 
 ## Properties
 
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
-**error** | [**ErrorError**](ErrorError.md) |  | 
+**error** | [**FailureError**](FailureError.md) |  | 
 
 ## Code Sample
 
 ```ruby
 require 'OpenapiClient'
 
-instance = OpenapiClient::Error.new(error: null)
+instance = OpenapiClient::Failure.new(error: null)
 ```
 
 
